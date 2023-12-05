@@ -1,0 +1,28 @@
+.errorPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.errorPage > h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.link-error {
+    text-decoration: none;
+    color: red;
+}
+
+
+@media screen and (max-width: 650px){
+    .errorPage > h1{
+        font-size: 1rem;
+    }
+    .link-error {
+        text-decoration: none;
+        color: red;
+    }
+    
+}

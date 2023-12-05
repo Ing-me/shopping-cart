@@ -1,0 +1,88 @@
+.loginPage{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;  
+    height: 100vh;
+    width: 100vw;    
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 15px 2px grey;
+    border-radius: 15px;
+    padding: 5px;
+    width: 30%;
+
+}
+.login > h2{
+    text-transform: uppercase;
+    margin:10px 0px;
+}
+.login > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 5px;
+}
+.login > form > input{
+    margin: 5px;
+    padding: 5px 10px;
+    width: 70%;
+    border-radius: 5px;
+}
+.login > form > input:invalid{
+    border: 1px solid red;
+}
+.login > form > input:valid{
+    border: 1px solid green;
+}
+.signin{
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    background-color: none;
+    border: 1px solid grey;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.signin:hover{
+    background-color: antiquewhite;
+}
+.separator{
+    height: 2px;
+    border: 1px solid grey;
+}
+.loginfooter{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 5px 0px;
+    width: 100%;
+    padding: 10px 10px;
+    border-top: 1px solid grey;
+}
+.loginfooter > span{
+    margin-bottom: 10px;
+}
+.loginfooter > span:last-child{
+    margin-bottom: 0px;
+}
+.loginfooter > span:hover{
+    color: blue;
+    cursor: pointer;
+}
+.loginfooter > span:visited{
+    color: green;
+}
+@media screen and (max-width: 650px){
+    .login{
+        width: 90%;
+        margin: auto;
+    }
+}

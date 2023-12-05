@@ -1,0 +1,105 @@
+
+.details-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    padding: 20px 20px;
+}
+.details-card > .img-card{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid grey;
+    border-radius: 20px;
+    padding: 20px 0px;
+    box-shadow: 9px 1px 4px 5px rgba(black, white, blue, 0);
+}
+.img-card > img {
+    width: 70%;
+    height: 350px;
+}
+.details-detail{
+    width: 50%;
+    padding: 5px 15px;
+}
+.details-detail > .title{
+    font-size:1.5rem;
+    font-weight: bolder;
+
+}
+.details-detail > p{
+    font-size: 1.5rem;
+    line-height: 1.6;
+}
+.details-detail > p > span{
+    color: red;
+}
+.details-detail > .desc{
+    margin-bottom: 15px;
+}
+.details-detail > .addCart{
+    border: none;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin: 20px 20px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border-radius: 10px;  
+    background-color: black;
+    color: aliceblue;  
+}
+.details-detail > .addCart:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+@media screen and (max-width: 650px){
+    .details-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 5px 2px;
+    }
+    .details-card > .img-card{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: none;
+    }
+    .img-card > img {
+        width: 100%;
+        height: 350px;
+    }
+    .details-detail{
+        width: 100%;
+        padding: 5px 15px;
+    }
+    .details-detail > .title{
+        font-size:1rem;
+        font-weight: bolder;    
+    }
+    .details-detail > p{
+        font-size: .8rem;
+        line-height: 1.4;
+    }
+    .details-detail > .addCart{
+        border: none;
+        cursor: pointer;
+        padding: 10px 25px;
+        margin: 20px 20px;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        border-radius: 10px;  
+        background-color: black;
+        color: aliceblue;  
+    }
+    .details-detail > .addCart:hover{
+        background-color: aliceblue;
+        color: black;
+    }
+}

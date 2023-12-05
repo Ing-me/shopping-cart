@@ -1,0 +1,38 @@
+.Navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 1px 1px 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+.Navbar .logo{
+    font-size: 2rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.Navbar .logo-link{
+    text-decoration: none;
+    color: rgb(22, 21, 21);
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav .nav-item{
+    list-style: none;
+    margin-right: 15px;
+}
+.nav .nav-item:last-of-type{
+    margin-right: 0px;
+}
+.nav-link{
+    text-decoration: none;
+    color: rgb(26, 25, 25);
+    font-size: 1.1rem;
+}
+.nav-link span{
+    margin-right: 5px;
+}
